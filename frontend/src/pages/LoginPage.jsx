@@ -229,7 +229,7 @@ export const LoginPage = () => {
             >
               {loading ? (
                 <>
-                  <Loader size={18} />
+                 
                   {isLogin ? 'Signing in...' : 'Creating account...'}
                 </>
               ) : (

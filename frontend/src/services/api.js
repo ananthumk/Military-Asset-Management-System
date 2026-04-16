@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://military-asset-management-system-7esy.onrender.com/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
